@@ -1,0 +1,13 @@
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eno1
+iface eno1 inet dhcp
+
+# secondary network interface
+allow-hotplug enp2s0
+iface enp2s0 inet dhcp
+
