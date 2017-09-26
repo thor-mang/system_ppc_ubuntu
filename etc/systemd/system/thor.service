@@ -1,0 +1,11 @@
+[Unit]
+Description=Thor Startup Script
+
+[Service]
+Type=simple
+User=turtlebot
+ExecStart=/home/thor/thor/src/thor/thor_mang_robot_bringup/autostart.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
