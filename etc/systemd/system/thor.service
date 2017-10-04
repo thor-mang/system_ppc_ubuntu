@@ -3,8 +3,8 @@ Description=Thor Startup Script
 
 [Service]
 Type=simple
-User=turtlebot
-ExecStart=/home/thor/thor/src/thor/thor_mang_robot_bringup/autostart.sh
+User=thor
+ExecStart=/home/thor/thor/src/thor/thor_mang_robot_bringup/startup.sh
 RemainAfterExit=yes
 
 [Install]
