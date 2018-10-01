@@ -1,5 +1,5 @@
 [Unit]
-Description=Thor Startup Script
+Description=Thor Perception Startup Script
 
 [Service]
 Type=simple
